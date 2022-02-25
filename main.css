@@ -1,5 +1,237 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,600;1,600&family=Roboto+Serif&display=swap" rel="stylesheet">);
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Jost', sans-serif;
+    background-color: rgb(131, 121, 121);
+}
+
+header{
+    display: flex;
+    width: 100vh;
+    position: relative;
+    line-height: 20px;
+
+}
+
+.container-logo-nav{
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin: auto 50px;
+    padding: 10px;
+    border-radius: 80px;
+    opacity: 0.5;
+    background-blend-mode: multiply;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+
+.nav .container-nav-links{
+    max-width: 92rem;
+    margin-top: 2rem;
+    border-radius: 5em;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: brown;
+    border-radius: 76px;
+    margin-top: 2px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+ul li a .active-link{
+
+}
+
+a:hover{
+    color: aquamarine;
+    border-radius: 2px solid rgb(174, 245, 82);
+}
+
+.landing-text{
+    font-family: 'Jost', sans-serif;
+    translate: 100% 100%;
+    padding: 30px 30px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 16em;
+    text-transform: uppercase;
+}
+
+h6{
+    font-style: italic;
+}
+
+.About{
+    height: 100vh;
+}
+
+.about-section{
+    display: flex;
+}
+
+.about-section .head{
+    display: block;
+}
+
+.A_bout{
+    position: relative;
+    width: 145px;
+    height: 54px;
+    text-align: center;
+    translate: 625% 200%;
+}
+
+.container-e{
+  display: flex;
+  margin-right: 100px;
+  padding: 20px 30px;
+  translate: -10% 90%;
+}
+
+.education{
+    text-align: center;
+    background-color: beige;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.education .school-info-title{
+    padding: 20px 16px;
+    align-items: center;
+}
+
+.education .school-info{
+    font-style: italic;
+}
+
+.job-expereience{
+    text-align: center;
+    background-color: beige;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.job-expereience .job{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 16px;
+}
+
+.hobbies{
+    text-align: center;
+    background-color: beige;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.hobbies .hobby{
+    text-align: center;
+    width: 25rem;
+    font-weight: bold;
+    margin: 20px 20px;
+    padding: 10px 16px;
+}
+
+.unorder{
+    justify-content: center;
+    list-style-type: none;
+    margin: 10px 15px;
+    line-height: 19px;
+}
+
+.unorder .order{
+    text-align: center;
+    align-items: center;
+}
+
+.interestedskills{
+    text-align: center;
+    background-color: beige;
+    border-radius: 30px;
+    /* margin-right: 20px; */
+}
+
+.interestedskills .int{
+    text-align: center;
+    /* width: 25rem; */
+    font-weight: bold;
+    margin: 20px 20px;
+    padding: 10px 16px;
+}
+
+.social-media{
+    position: relative;
+    width: 145px;
+    height: 54px;
+    text-align: center;
+    translate: 625% -900%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

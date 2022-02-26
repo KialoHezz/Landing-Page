@@ -6,7 +6,8 @@
 }
 body{
     font-family: 'Jost', sans-serif;
-    background-color: rgb(131, 121, 121);
+    background-color: teal;
+    /* mix-blend-mode: color-dodge; */
 }
 
 /* header{
@@ -87,9 +88,29 @@ a:hover{
     border-radius: 2px solid rgb(174, 245, 82);
 }
 
+.landImg{
+    display: flex;
+}
+
 .landing-text{
     font-family: 'Jost', sans-serif;
     padding: 30px 30px;
+    margin: 9rem 2rem;
+    color: white;
+    translate: 30% 15%;
+}
+
+img{
+    width: 25rem;
+    height: 23rem;
+    mix-blend-mode: normal;
+}
+
+.git-img{
+    width: 2px;
+    /* height: 1px; */
+    margin: 7rem 20rem;
+    padding: 20px 30px;
 }
 
 h1{
@@ -105,11 +126,15 @@ h6{
 }
 
 .about{
-    /* height: 100vh; */
+    position: relative;
+    padding: 20px 16px;
+    margin-top: 2rem;
 }
 
 .about-section .head{
     text-align: center;
+    margin: 16px 20px;
+    padding: 20px 27px;
 }
 
 .A_bout{
@@ -214,12 +239,17 @@ h6{
     font-style: italic;
 }
 
-.container-social-media .facebook{
+.container-social-media{
     text-align: center;
 }
 
+img{
+    border-radius: 10000rem;
+}
+
 .facebook-img{
-    border-radius: 40rem;
+    width: 2rem;
+    height: 3rem;
 }
 
 .footer{
@@ -241,8 +271,8 @@ h6{
     font-style: oblique;
 }
 
-.q-1 .q-1-qoute{
+.theqoute{
     text-align: center;
-    margin-left: 30rem;
+    /* margin-left: 30rem; */
     font-style: italic;
 }

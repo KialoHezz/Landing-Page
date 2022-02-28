@@ -225,6 +225,36 @@ h6{
     font-style: italic;
 }
 
+.contact{
+    display: block;
+}
+
+.contacts{
+    text-align: center;
+    padding: 2rem 0rem;
+    text-transform: uppercase;
+}
+
+.form-info{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 175, 224);
+    width: 50rem;
+    height: 25rem;
+    margin-left: 30rem;
+    padding: 2rem 2rem;
+    border-radius: 5rem;
+}
+
+.form-info-fo{
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.1rem;
+    padding: 1rem;
+}
+
 .social-media{
     position: relative;
     margin-top: 100px;

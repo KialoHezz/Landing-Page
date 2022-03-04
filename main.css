@@ -127,14 +127,14 @@ h6{
 
 .about{
     position: relative;
-    padding: 20px 16px;
-    margin-top: 2rem;
+    padding: 16px auto;
+    margin-top: .2rem;
 }
 
 .about-section .head{
     text-align: center;
-    margin: 16px 20px;
-    padding: 20px 27px;
+    margin: auto 20px;
+    padding: 2rem 27px;
 }
 
 .A_bout{
